@@ -176,6 +176,10 @@ void uvMap(
     vector<double> diag; // diagonal values in W.
     diag.resize(N, 0);
 
+    // Note that in order to construct the matrix, I do not use the exact same approach
+    // as described in the article. Using the below approach, we only have to compute the
+    // harmonic weights once. But the resulting matrix will be the same matrix that was
+    // described in the article.
     for(EdgeIter eit = hem.BeginEdges(); eit != hem.EndEdges(); eit++) {
         // The boundary vertices are fixed(they are projected on a circle),
         // so we do not need to compute any weights of the boundary edges.
