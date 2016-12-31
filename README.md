@@ -92,10 +92,7 @@ easy to integrate into other projects.
 
 ## How does all this work!?
 
-Unfortunately, if you don't understand the underlying math, it is a
-bit difficult to grasp how the UV-mapper code actually works. For this
-reason, I am currently working on writing an article that explains the
-underlying math. Until it is done, please be patient.
+The mathematics behind the UV-mapper is described in [this article](https://erkaman.github.io/posts/harmonic_map.html).
 
 ## References
 
